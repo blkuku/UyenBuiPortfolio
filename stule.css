@@ -37,6 +37,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 5%;
+  z-index: 99999;
 }
 
 .header-container .header-logo {
@@ -484,7 +485,9 @@ body {
 }
 
 .building-container .content .first-block {
-  margin-top: -200px;
+  margin-top: -50px;
+  height: 600px;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
